@@ -7,7 +7,7 @@
     <meta name="author" content="@gotoariel">
     <!-- <link rel="icon" href="favicon.ico"> -->
 
-    <title>Wilkommen, bienvenue, and welcome to Heroku!</title>
+    <title>AMG TDI 12Day Milestone</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -16,14 +16,30 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-left">
-          <h2>Hello, World!</h2>
-          <ul>
+          <h2>Stock Price Viewer</h2>
+          <body>
+            Please enter the symbol for a company's stock listing and select the price metrics you would like to examine further.
+          </body>
+          <form action="/action_page.php">
+            <label for="stock">Stock Symbol: </label>
+            <input type="text" id="stock" name="stock" placeholder="MRNA"><br><br>
+            <input type="checkbox" id="option1" name="option1" value="Close">
+            <label for="option1"> Closing price</label><br>
+            <input type="checkbox" id="option2" name="option2" value="AdjClose">
+            <label for="option2"> Adjusted closing price</label><br>
+            <input type="checkbox" id="option3" name="option3" value="Open">
+            <label for="option3"> Opening price</label><br> 
+            <input type="checkbox" id="option4" name="option4" value="AjdOpen">
+            <label for="option4"> Adjusted opening price</label><br>   
+            <input type="submit" value="Submit">
+          </form>
+          <!-- <ul>
             <li><a href="/about">About</a></li>
             <li><a target="_blank" href="https://www.heroku.com/">Heroku</a></li>
             <li><a target="_blank" href="http://flask.pocoo.org/">Flask</a></li>
             <li><a target="_blank" href="http://jinja.pocoo.org/docs/2.9/">Jinja2</a></li>
             <li><a target="_blank" href="http://getbootstrap.com/">Bootstrap</a></li>
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
