@@ -19,7 +19,7 @@ def get_key(json_file,json_key='alpha_vantage_info'):
     user_values = data[json_key]
     return user_values['api_key']
 
-json_file = '/Users/adamgifford/Documents/DataScience/DataIncubator/Winter 2021/12_Day_Challenge/alpha_vantage_config.json'
+json_file = 'alpha_vantage_config.json'
 api_key = get_key(json_file=json_file)
 
 base_url = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY'
