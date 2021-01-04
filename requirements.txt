@@ -1,2 +1,9 @@
 gunicorn==19.9.0
 requests==2.20.0
+pandas==1.2.0
+bokeh==2.2.3
+dill==0.3.3
+flask==1.1.2
+jinja2==2.11.2
+pip==20.3.3
+simplejson==3.17.2
