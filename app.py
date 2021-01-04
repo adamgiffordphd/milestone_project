@@ -13,6 +13,7 @@ import simplejson as json
 import requests
 
 def get_key(json_file,json_key='alpha_vantage_info'):
+    # get api key
     with open(json_file) as f:
         data = json.load(f)
     
